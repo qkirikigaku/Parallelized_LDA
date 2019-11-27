@@ -3,6 +3,10 @@
 
 data_type=${1}
 
+if [-e result/data${data_type}]; then
+    rm -r result/data${data_type}
+fi
+
 #----------------------
 # Data_type shows the mutation dictionary using in experiments.
 # In detail, please refer to our paper.
