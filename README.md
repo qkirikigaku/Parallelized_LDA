@@ -35,10 +35,10 @@ ${data_type} is corresponding to which type of mutation dictionary using. About 
 This file is necessary for every primary lesion.
 ```
 N V
-M_11 M_12, ...  M_1V
-M_21 M_22, ...  M_2V
+M_11 M_12 ...  M_1V
+M_21 M_22 ...  M_2V
 ...
-M_N1 M_N2, ...  M_NV
+M_N1 M_N2 ...  M_NV
 ```
 *N* and *V* show # samples and # mutational types, respectively.
 *M_ij* shows the number of *j*th mutation in *i*th sample.
