@@ -69,4 +69,4 @@ By editing the variables in `scripts/MS_real.sh`, you can change the options to 
 	* *Iter* variable is the numebr of iterations of experiments. As you know, Variational Bayes methods depends on initial values of the parameters to learn the space of latent variables, so we re-allocate it for *Iter* times. The computational time of `MS_real.sh` takes about linear order of variable *Iter*.
 
 * `${K}` (default : 30)
-	* *K* variable is the max number of topics in experiments. If you expect more topics then default value (30) in the entire catalogs, please set this variable to the large value. The computational time of `MS_real.sh` takes about linear order of variable *Iter*.
+	* *K* variable is the max number of topics in experiments. If you expect more topics than default value (30) in the entire catalogs, please set this variable to the large value. The computational time of `MS_real.sh` takes about linear order of variable *Iter*.
