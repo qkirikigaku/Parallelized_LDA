@@ -1,3 +1,5 @@
+Please refer to our paper: [Parallelized Latent Dirichlet Allocation Provides a Novel Interpretability of Mutation Signatures in Cancer Genomes](https://www.mdpi.com/2073-4425/11/10/1127) for more detailed information.
+
 # Parallelized_LDA
 Parallelized-LDA can extract mutation signatures contained in samples from mutation catalogs of cancer genome with Bayesian model.
 We named our model as Parallelized-LDA, an extended model of Latent Dirichelt Alloctaion (LDA).
